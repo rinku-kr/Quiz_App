@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:quiz_app/answer_button.dart';
 import 'package:quiz_app/data/questions.dart';
 
@@ -33,6 +34,7 @@ class _QuestionsScreen extends State<QuestionsScreen> {
               Text(
                 currentQuestion.text,
                 textAlign: TextAlign.center,
+                style: GoogleFonts.lato(fontSize: 22),
               ),
               const SizedBox(
                 height: 20,
